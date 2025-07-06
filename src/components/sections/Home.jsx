@@ -8,15 +8,42 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-right">
-            Hi, I'm Naquib
+          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-right">
+            Hello, I'm Naquib
           </h1>
 
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto justify-center">
-            I'm a software engineer with a passion for building web applications
-            and exploring the world of technology. I love creating innovative
-            solutions that make a difference.
+          <p className="text-gray-400 text-lg mb-5 max-w-lg mx-auto justify-center">
+            A Full Stack Developer
           </p>
+
+          <div className="flex justify-center mt-4 mb-5 gap-5 md:gap-5">
+            {/* ✅ LinkedIn Icon Link */}
+            <a
+              href="https://www.linkedin.com/in/ahmad-naquib-52493b207/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/linkedin.png"
+                alt="My Linkedin Profile"
+                className="w-7 h-7 md:w-9 md:h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
+              />
+            </a>
+
+            {/* ✅ GitHub Icon Link */}
+            <a
+              href="https://github.com/naquib99"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/github.png"
+                alt="My Github Profile"
+                className="w-7 h-7 md:w-9 md:h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
+              />
+            </a>
+          </div>
+
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
