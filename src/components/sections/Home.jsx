@@ -24,7 +24,7 @@ export const Home = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/assets/linkedin.png"
+                src={`${import.meta.env.BASE_URL}assets/linkedin.png`} 
                 alt="My Linkedin Profile"
                 className="w-7 h-7 md:w-9 md:h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
               />
@@ -37,7 +37,7 @@ export const Home = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/assets/github.png"
+                src={`${import.meta.env.BASE_URL}assets/github.png`} 
                 alt="My Github Profile"
                 className="w-7 h-7 md:w-9 md:h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
               />
