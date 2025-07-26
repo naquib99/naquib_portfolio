@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-5 max-w-lg mx-auto justify-center">
-            A Full Stack Developer
+            A Full Stack Developer (A bit of a Freelancer)
           </p>
 
           <div className="flex justify-center mt-4 mb-5 gap-5 md:gap-5">
