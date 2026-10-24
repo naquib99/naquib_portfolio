@@ -142,7 +142,7 @@ const projects = [
     links: [
       {
         label: "View page",
-        href: "https://www.ruangan.my/weKongsi/",
+        href: "https://www.ruangan.my/nwk/",
         Icon: FaExternalLinkAlt,
       },
     ],
