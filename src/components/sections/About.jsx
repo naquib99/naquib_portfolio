@@ -17,7 +17,7 @@ const skillGroups = [
   },
   {
     title: "Frontend",
-    skills: ["Angular", "React", "Ionic", "Tailwind CSS", "HTML/CSS"],
+    skills: ["Angular", "React", "Astro", "Ionic", "Tailwind CSS", "HTML/CSS"],
   },
   {
     title: "Database, Infra & Tooling",

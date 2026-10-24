@@ -1,6 +1,6 @@
 {
   "name": "portfoliotailwind",
-  "homepage": "https://naquib99.github.io/naquib_portfolio",
+  "homepage": "https://naquib99.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/naquib99/naquib99.github.io.git -b main",
+    "deploy:redirect": "gh-pages -d redirect -b gh-pages -m \"Redirect to naquib99.github.io\""
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
